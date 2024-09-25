@@ -10,7 +10,6 @@
             };
 
             if (window.location.pathname != '/defense') {
-                alert('You must be in a Tower Defense game!');
             } else {
                 reactHandler().stateNode.towers.forEach(tower => {
                     tower.damage = 1e308;
